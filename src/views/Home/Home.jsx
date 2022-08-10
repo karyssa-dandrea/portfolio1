@@ -5,7 +5,7 @@ import styles from './Home.css';
 export default function Home() {
   return (
     <div className={styles.home}>
-      <img src={ryssa} className={styles.img} alt="retro sparkles" />
+      <img src={ryssa} className={styles.img} alt="karyssa logo" />
       <div className={styles.bio}>
         <p>
           Hello, welcome! <br />
