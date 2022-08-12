@@ -9,7 +9,7 @@ export default function Home() {
       <div className={styles.bio}>
         <p>
           Hello, welcome! <br />
-          I'm <i>Karyssa Dandrea</i>. <br />
+          I'm Karyssa Dandrea. <br />
           I'm a full stack software developer specializing in the front end. I
           love to create beautiful digital and user experiences.
         </p>

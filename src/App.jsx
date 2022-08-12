@@ -8,8 +8,8 @@ export default function App() {
   return (
     <div className="App">
       <Router>
-        <Layout>
-          <Switch>
+        <Switch>
+          <Layout>
             <Route exact path="/">
               <Home />
             </Route>
@@ -19,8 +19,8 @@ export default function App() {
             <Route exact path="/tech">
               <TechStack />
             </Route>
-          </Switch>
-        </Layout>
+          </Layout>
+        </Switch>
       </Router>
     </div>
   );

@@ -1,0 +1,38 @@
+.tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7c6ff;
+  justify-content: space-between;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+}
+
+.dev {
+  display: flex;
+  flex-direction: column;
+}
+
+.testing {
+  display: flex;
+  flex-direction: column;
+}
+
+.frames {
+  display: flex;
+  flex-direction: column;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
