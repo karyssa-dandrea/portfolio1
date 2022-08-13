@@ -1,10 +1,18 @@
 .tech {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  background-color: #e7c6ff;
+  width: 70vw;
+  background-color: #763a00;
   justify-content: space-between;
+  color: #ffc8dd;
+  padding: 50px 10px 10px 10px;
+  margin: 20px 0px 20px 0px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border-color: #b96619;
+  border-style: double;
+  border-width: 10px;
+  font-family: 'Roboto Serif', serif;
 }
 
 .language {
@@ -35,4 +43,9 @@
 .data {
   display: flex;
   flex-direction: column;
+}
+
+.err {
+  border-bottom: 2px solid #ffbc42;
+  display: inline-block;
 }

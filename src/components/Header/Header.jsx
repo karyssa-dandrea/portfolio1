@@ -5,9 +5,15 @@ import styles from './Header.css';
 export default function Header() {
   return (
     <div className={styles.header}>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/tech">Tech Stack</NavLink>
+      <NavLink to="/">
+        <div className={styles.home}>Home</div>
+      </NavLink>
+      <NavLink to="/about">
+        <div className={styles.about}>About</div>
+      </NavLink>
+      <NavLink to="/tech">
+        <div className={styles.tech}>Tech Stack</div>
+      </NavLink>
     </div>
   );
 }

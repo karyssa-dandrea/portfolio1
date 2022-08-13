@@ -1,5 +1,5 @@
 img {
-  width: 50vw;
+  width: 40vw;
   justify-content: center;
   align-items: center;
 }
@@ -18,5 +18,5 @@ img {
   text-align: center;
   margin: 10px 10px 25px 10px;
   width: 60vw;
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Roboto Serif', serif;
 }
