@@ -4,6 +4,7 @@
   border-radius: 40%;
   border-color: #c8691c;
   border-style: groove;
+  float: left;
 }
 
 .about {
@@ -29,4 +30,16 @@
   box-shadow: 0 1px 5px 5px #78380c;
   text-align: center;
   color: white;
+}
+
+.book {
+  width: 190px;
+  border-color: #c8691c;
+  border-style: groove;
+}
+
+.spotify {
+  border-color: #c8691c;
+  border-style: groove;
+  width: 300px;
 }
