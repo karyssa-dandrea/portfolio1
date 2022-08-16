@@ -10,7 +10,8 @@
 
 .home,
 .tech,
-.about {
+.about,
+.resume {
   font-family: 'Monoton', cursive;
   font-size: 2em;
   color: #b96619;

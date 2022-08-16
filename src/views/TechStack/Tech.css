@@ -1,7 +1,7 @@
 .tech {
   display: flex;
   flex-direction: row;
-  width: 70vw;
+  width: 75vw;
   background-color: #763a00;
   justify-content: space-between;
   color: #ffc8dd;
@@ -13,6 +13,7 @@
   border-style: double;
   border-width: 10px;
   font-family: 'Roboto Serif', serif;
+  height: 73vh;
 }
 
 .language {
