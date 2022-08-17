@@ -16,3 +16,11 @@
   font-size: 2em;
   color: #b96619;
 }
+
+.header-link {
+  color: #bc3a41;
+}
+
+.header::before {
+  color: #bc3a41 !important;
+}

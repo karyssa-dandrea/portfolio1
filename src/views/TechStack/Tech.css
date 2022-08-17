@@ -1,11 +1,11 @@
 .tech {
   display: flex;
   flex-direction: row;
-  width: 75vw;
+  width: auto;
   background-color: #763a00;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: #ffc8dd;
-  padding: 50px 10px 10px 10px;
+  padding: 20px 40px 10px 40px;
   margin: 20px 0px 20px 0px;
   border-radius: 5px;
   font-size: 1.2em;
@@ -19,31 +19,37 @@
 .language {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .tools {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .dev {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .testing {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .frames {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .data {
   display: flex;
   flex-direction: column;
+  width: 14%;
 }
 
 .err {

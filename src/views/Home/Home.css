@@ -2,6 +2,7 @@ img {
   width: 40vw;
   justify-content: center;
   align-items: center;
+  float: left;
 }
 
 .home {
