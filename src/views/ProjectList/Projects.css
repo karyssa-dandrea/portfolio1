@@ -1,0 +1,39 @@
+.unphoto {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.unspoken {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+}
+
+h3 {
+  color: #bc3a41;
+}
+
+.gotchi {
+  width: 200px;
+}
+
+.gotchib {
+  font-size: 2.5vw;
+  color: rgb(172, 105, 112);
+  font-family: 'Electrolize', sans-serif;
+}
