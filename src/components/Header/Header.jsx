@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.css';
 import resume from '../../assets/resume.png';
+import home2 from '../../assets/home2.png';
 
 export default function Header() {
   return (
@@ -14,6 +15,9 @@ export default function Header() {
       </NavLink>
       <NavLink to={resume} target="_blank">
         <div className={styles.resume}>Resume</div>
+      </NavLink>
+      <NavLink to="/projects">
+        <div className={styles.project}>Projects</div>
       </NavLink>
       <NavLink to="/tech">
         <div className={styles.tech}>Tech Stack</div>

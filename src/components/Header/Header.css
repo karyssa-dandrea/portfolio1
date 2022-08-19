@@ -8,12 +8,13 @@
   background-size: 100%;
 }
 
-.home,
 .tech,
 .about,
-.resume {
+.resume,
+.project,
+.home {
   font-family: 'Monoton', cursive;
-  font-size: 2em;
+  font-size: 1.8em;
   color: #b96619;
 }
 

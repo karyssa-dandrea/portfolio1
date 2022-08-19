@@ -2,38 +2,91 @@
   width: 400px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .unspoken {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 3;
+  grid-row: 1;
+  /* flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 10px;
   margin: 10px;
   width: 400px;
+  padding: 50px 10px 10px 10px;
+  line-height: 25px;
+  background: url('../../assets/checkers.png');
+  color: rgb(101, 100, 100);
+  margin: 20px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px #78380c;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
 }
 
 .foto {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+  /* flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 10px;
   margin: 10px;
   width: 400px;
+  padding: 50px 10px 10px 10px;
+  line-height: 25px;
+  background: url('../../assets/checkers.png');
+  color: rgb(101, 100, 100);
+  margin: 20px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px #78380c;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
 }
 
-h3 {
-  color: #bc3a41;
+.projecth {
+  color: #52301b;
 }
 
 .gotchi {
-  width: 200px;
+  width: 100px;
 }
 
 .gotchib {
   font-size: 2.5vw;
-  color: rgb(172, 105, 112);
+  color: black;
   font-family: 'Electrolize', sans-serif;
+}
+
+.gotchibb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  padding: 50px 10px 10px 10px;
+  line-height: 25px;
+  background: url('../../assets/checkers.png');
+  color: rgb(101, 100, 100);
+  margin: 20px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px #78380c;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.projectlist {
+  display: grid;
+  background-color: #c27731;
+  border-radius: 5px;
+  border: 2px solid #78380c;
 }
