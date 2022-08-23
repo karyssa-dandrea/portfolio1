@@ -3,6 +3,7 @@ import me from '../../assets/me.jpg';
 import styles from './About.css';
 import witch from '../../assets/witch.jpeg';
 import Spotify from 'react-spotify-embed';
+import pups from '../../assets/pups.jpg';
 
 export default function AboutMe() {
   return (
@@ -26,15 +27,22 @@ export default function AboutMe() {
           Let's work together!
         </p>
       </div>
-
-      <div className={styles.grid2}>
-        <h3> Currently Reading:</h3>
-        <img src={witch} className={styles.book} alt="image of book" />
-      </div>
-      <div className={styles.grid3}>
-        <h3> Favorites to Code to:</h3>
-        <div className={styles.spotify}>
-          <Spotify link="https://open.spotify.com/playlist/6tMR6bBpetCK0mHP5WfTwF?si=f379312a27b744f2" />
+      <div className={styles.fun}>
+        <div className={styles.read}>
+          <div className={styles.grid2}>
+            <h3> Currently Reading:</h3>
+            <img src={witch} className={styles.book} alt="image of book" />
+          </div>
+        </div>
+        <div className={styles.grid2}>
+          <h3> My Fur Babies Tokio & Nori:</h3>
+          <img src={pups} className={styles.dogs} alt="image of dogs" />
+        </div>
+        <div className={styles.grid3}>
+          <h3> Favorites to Code to:</h3>
+          <div className={styles.spotify}>
+            <Spotify link="https://open.spotify.com/playlist/6tMR6bBpetCK0mHP5WfTwF?si=f379312a27b744f2" />
+          </div>
         </div>
       </div>
     </div>

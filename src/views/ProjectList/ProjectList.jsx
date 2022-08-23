@@ -14,6 +14,23 @@ export default function ProjectList() {
         <h3 className={styles.projecth}>
           <i>React, Express, PostgreSQL, Node NLP, Heroku, CSS</i>
         </h3>
+        <div className="gotchilinks">
+          <a
+            href="https://github.com/Tamagotchi-Clone"
+            target="_blank"
+            alt="github repo"
+          >
+            Code
+          </a>
+          |
+          <a
+            href="https://gotchi-bb.netlify.app"
+            target="_blank"
+            alt="deployed site"
+          >
+            Site
+          </a>
+        </div>
         <p>
           <b>
             Gotchi bb is a full-stack CRUD app with a RESTful API that allows
@@ -28,6 +45,7 @@ export default function ProjectList() {
         <h3 className={styles.projecth}>
           <i>React, Supabase, Netlify, CSS</i>
         </h3>
+        <h5>Code | Site</h5>
         <p>
           <b>
             Foto is an online application that allows users to upload photos
@@ -44,6 +62,7 @@ export default function ProjectList() {
         <h3 className={styles.projecth}>
           <i>React, Netlify, Supabase, CSS</i>
         </h3>
+        <h5>Code | Site</h5>
         <p>
           <b>
             Unspoken is an online platform for users to share stories for others

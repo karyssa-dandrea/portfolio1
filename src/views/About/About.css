@@ -7,9 +7,10 @@
 }
 
 .about {
-  display: grid;
+  /* display: grid;
   grid-column: 1;
-  grid-row: 3;
+  grid-row: 3; */
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -35,10 +36,10 @@
 }
 
 .book {
-  width: 250px;
+  width: 300px;
   border-color: #c8691c;
   border-style: groove;
-  height: 370px;
+  height: 450px;
 }
 
 .spotify {
@@ -47,40 +48,17 @@
   width: 300px;
 }
 
-/* .gridcontainer {
-  display: grid;
-}
-
-.grid1 {
-  grid-row-start: 2;
-  grid-row-end: 1;
-  padding: 20px;
-} */
-
 .grid2 {
-  display: grid;
+  /* display: grid;
   grid-column: 1;
   grid-row: 2;
-  color: rgb(101, 100, 100);
-  margin: 20px 20px 40px 20px;
-  border-radius: 5px;
-  box-shadow: 0 1px 5px 5px #78380c;
-  text-align: center;
-  padding: 10px;
-  /* margin: 10px; */
-  width: 255px;
-  /* padding: 50px 10px 10px 10px; */
-  /* grid-row-start: 2;
-  grid-row-end: 2;
-  justify-self: start;
-  margin-top: 30px;
-  margin-left: 30px; */
-}
-
-.grid3 {
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
+  grid-column-gap: 50px;
+  row-gap: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 20vw;
   color: rgb(101, 100, 100);
   margin: 20px 20px 40px 20px;
   border-radius: 5px;
@@ -88,11 +66,63 @@
   text-align: center;
   padding: 10px;
   width: 305px;
-  /* grid-area: sidebar;
-  grid-row-start: 2;
-  grid-row-end: 4; */
-  /* grid-row-start: 4;
-  grid-row-end: 4;
-  grid-area: sidebar;
-  margin-top: 20px; */
+}
+
+.grid3 {
+  /* display: grid;
+  grid-column: 2;
+  grid-row: 2; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 100, 100);
+  margin: 20px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px #78380c;
+  text-align: center;
+  padding: 10px;
+  width: 305px;
+}
+
+/* .pups {
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  width: 50vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(101, 100, 100);
+  margin: 20px 20px 40px 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 5px #78380c;
+  text-align: center;
+  padding: 10px;
+  width: 305px;
+} */
+
+.dogs {
+  width: 300px;
+  border-color: #c8691c;
+  border-style: groove;
+  height: 450px;
+}
+
+.fun {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.read {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  justify-content: space-evenly;
 }
