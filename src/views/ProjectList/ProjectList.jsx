@@ -41,11 +41,27 @@ export default function ProjectList() {
         </p>
       </div>
       <div className={styles.foto}>
-        <h1>Foto.</h1>
+        <h1 className={styles.fotoh1}>Foto.</h1>
         <h3 className={styles.projecth}>
           <i>React, Supabase, Netlify, CSS</i>
         </h3>
-        <h5>Code | Site</h5>
+        <div className="fotolinks">
+          <a
+            href="https://github.com/photo-app-placeholder"
+            target="_blank"
+            alt="github repo for foto"
+          >
+            Code
+          </a>
+          |
+          <a
+            href="https://foto-app.netlify.app"
+            target="_blank"
+            alt="deployed foto site"
+          >
+            Site
+          </a>
+        </div>
         <p>
           <b>
             Foto is an online application that allows users to upload photos
@@ -62,7 +78,23 @@ export default function ProjectList() {
         <h3 className={styles.projecth}>
           <i>React, Netlify, Supabase, CSS</i>
         </h3>
-        <h5>Code | Site</h5>
+        <div className="unspokenlinks">
+          <a
+            href="https://github.com/unspoken-project"
+            target="_blank"
+            alt="github repo for unspoken"
+          >
+            Code
+          </a>
+          |
+          <a
+            href="https://unspokenstories.netlify.app"
+            target="_blank"
+            alt="deployed unspoken site"
+          >
+            Site
+          </a>
+        </div>
         <p>
           <b>
             Unspoken is an online platform for users to share stories for others

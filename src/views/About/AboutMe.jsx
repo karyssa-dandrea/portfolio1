@@ -3,7 +3,7 @@ import me from '../../assets/me.jpg';
 import styles from './About.css';
 import witch from '../../assets/witch.jpeg';
 import Spotify from 'react-spotify-embed';
-import pups from '../../assets/pups.jpg';
+import doggies from '../../assets/doggies.jpg';
 
 export default function AboutMe() {
   return (
@@ -36,7 +36,7 @@ export default function AboutMe() {
         </div>
         <div className={styles.grid2}>
           <h3> My Fur Babies Tokio & Nori:</h3>
-          <img src={pups} className={styles.dogs} alt="image of dogs" />
+          <img src={doggies} className={styles.dogs} alt="image of dogs" />
         </div>
         <div className={styles.grid3}>
           <h3> Favorites to Code to:</h3>

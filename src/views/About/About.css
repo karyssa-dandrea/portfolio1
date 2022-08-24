@@ -7,9 +7,6 @@
 }
 
 .about {
-  /* display: grid;
-  grid-column: 1;
-  grid-row: 3; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,10 +33,10 @@
 }
 
 .book {
-  width: 300px;
+  width: 250px;
   border-color: #c8691c;
   border-style: groove;
-  height: 450px;
+  height: 390px;
 }
 
 .spotify {
@@ -49,11 +46,6 @@
 }
 
 .grid2 {
-  /* display: grid;
-  grid-column: 1;
-  grid-row: 2;
-  grid-column-gap: 50px;
-  row-gap: 50px; */
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -65,13 +57,10 @@
   box-shadow: 0 1px 5px 5px #78380c;
   text-align: center;
   padding: 10px;
-  width: 305px;
+  width: 260px;
 }
 
 .grid3 {
-  /* display: grid;
-  grid-column: 2;
-  grid-row: 2; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,44 +74,18 @@
   width: 305px;
 }
 
-/* .pups {
-  display: grid;
-  grid-column: 1;
-  grid-row: 3;
-  width: 50vw;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: rgb(101, 100, 100);
-  margin: 20px 20px 40px 20px;
-  border-radius: 5px;
-  box-shadow: 0 1px 5px 5px #78380c;
-  text-align: center;
-  padding: 10px;
-  width: 305px;
-} */
-
 .dogs {
-  width: 300px;
+  width: 250px;
   border-color: #c8691c;
   border-style: groove;
-  height: 450px;
+  height: 390px;
 }
 
 .fun {
   width: 80vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-}
-
-.read {
-  display: flex;
-  flex-direction: row;
-  width: 75vw;
-  justify-content: space-evenly;
+  gap: 20px;
 }

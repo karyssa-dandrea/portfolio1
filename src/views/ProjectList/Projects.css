@@ -95,3 +95,19 @@ a {
   justify-content: space-evenly;
   padding: 6px;
 }
+
+.fotolinks a {
+  font-size: 1.1rem;
+}
+
+.unspokenlinks a {
+  font-size: 1.1rem;
+}
+
+a :hover {
+  color: coral;
+}
+
+.fotoh1 {
+  font-size: 3em;
+}
