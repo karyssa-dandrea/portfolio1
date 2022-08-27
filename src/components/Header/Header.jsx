@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.css';
 import resume from '../../assets/resume.png';
-import home2 from '../../assets/home2.png';
 
 export default function Header() {
   return (

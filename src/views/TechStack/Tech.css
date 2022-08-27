@@ -1,68 +1,91 @@
-.tech {
-  display: flex;
-  flex-direction: row;
-  width: auto;
-  background-color: #763a00;
-  align-items: center;
-  justify-content: space-evenly;
-  /* color: #ffc8dd; */
-  padding: 20px 40px 10px 40px;
-  margin: 20px 0px 20px 0px;
-  border-radius: 5px;
-  font-size: 1.2em;
-  border-color: #b96619;
-  border-style: double;
-  border-width: 10px;
-  font-family: 'Roboto Serif', serif;
-  height: 73vh;
+/* Large devices (laptops, desktops, screens > 700px) */
+@media only screen and (min-width: 705px) {
+  .tech {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url('../../assets/checkers3.jpeg');
+    background-size: 50%;
+    padding: 20px 40px 10px 40px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    border-color: #b96619;
+    border-style: groove;
+    border-width: 10px;
+    font-family: 'Roboto Serif', serif;
+    height: 73vh;
+  }
+
+  .language {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .tools {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .dev {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .testing {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .frames {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+  }
+
+  .err {
+    border-bottom: 2px solid #ffbc42;
+    display: inline-block;
+  }
+
+  .techsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: 70vh;
+    background-color: #b96619;
+    color: black;
+    margin: 0 7px 7px 7px;
+    border-radius: 5px;
+    border-color: #78380c;
+    border-style: double;
+    border-width: 10px;
+  }
 }
 
-.language {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.tools {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.dev {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.testing {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.frames {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.data {
-  display: flex;
-  flex-direction: column;
-  width: 14%;
-}
-
-.err {
-  border-bottom: 2px solid #ffbc42;
-  display: inline-block;
-}
-.techsection {
-  display: flex;
-  justify-content: space-evenly;
-  width: 70vw;
-  background-color: #b96619;
-  color: black;
-  margin: 0 7px 7px 7px;
-  border-radius: 5px;
+/* Small devices (phones, <= 700px) */
+@media only screen and (min-width: 768px) {
+  .tech-section {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 5px;
+    background-color: #b96619;
+    color: black;
+    border-radius: 5px;
+  }
 }

@@ -35,7 +35,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={styles.grid2}>
-          <h3> My Fur Babies Tokio & Nori:</h3>
+          <h3> My little besties: Nori & Tokio</h3>
           <img src={doggies} className={styles.dogs} alt="image of dogs" />
         </div>
         <div className={styles.grid3}>
