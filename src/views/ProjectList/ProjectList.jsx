@@ -19,6 +19,7 @@ export default function ProjectList() {
             href="https://github.com/Tamagotchi-Clone"
             target="_blank"
             alt="github repo"
+            className={styles.projectlinks}
           >
             Code
           </a>
@@ -27,6 +28,7 @@ export default function ProjectList() {
             href="https://gotchi-bb.netlify.app"
             target="_blank"
             alt="deployed site"
+            className={styles.projectlinks}
           >
             Site
           </a>
@@ -50,6 +52,7 @@ export default function ProjectList() {
             href="https://github.com/photo-app-placeholder"
             target="_blank"
             alt="github repo for foto"
+            className={styles.projectlinks}
           >
             Code
           </a>
@@ -58,6 +61,7 @@ export default function ProjectList() {
             href="https://foto-app.netlify.app"
             target="_blank"
             alt="deployed foto site"
+            className={styles.projectlinks}
           >
             Site
           </a>
@@ -83,6 +87,7 @@ export default function ProjectList() {
             href="https://github.com/unspoken-project"
             target="_blank"
             alt="github repo for unspoken"
+            className={styles.projectlinks}
           >
             Code
           </a>
@@ -91,6 +96,7 @@ export default function ProjectList() {
             href="https://unspokenstories.netlify.app"
             target="_blank"
             alt="deployed unspoken site"
+            className={styles.projectlinks}
           >
             Site
           </a>

@@ -91,10 +91,8 @@
   }
 
   a {
-    color: black;
+    color: #694618;
     text-decoration: none;
-    justify-content: space-evenly;
-    padding: 6px;
   }
 
   .fotolinks a {
@@ -111,6 +109,13 @@
 
   .fotoh1 {
     font-size: 3em;
+  }
+
+  .projectlinks {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    padding: 6px;
   }
 }
 
