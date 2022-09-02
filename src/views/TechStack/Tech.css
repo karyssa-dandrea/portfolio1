@@ -2,21 +2,21 @@
 @media only screen and (min-width: 705px) {
   .tech {
     display: flex;
-    flex-direction: row;
-    width: auto;
+    flex-direction: column;
+    /* width: auto; */
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     background: url('../../assets/checkers3.jpeg');
     background-size: 50%;
     padding: 20px 40px 10px 40px;
     margin: 20px 0px 20px 0px;
     border-radius: 5px;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     border-color: #b96619;
     border-style: groove;
     border-width: 10px;
     font-family: 'Roboto Serif', serif;
-    height: 73vh;
+    /* height: 73vh; */
   }
 
   .language {
@@ -76,7 +76,7 @@
   }
 }
 
-/* Small devices (phones, <= 700px) */
+/* Small devices (phones, <= 700px)
 @media only screen and (min-width: 768px) {
   .tech-section {
     display: flex;
@@ -88,4 +88,4 @@
     color: black;
     border-radius: 5px;
   }
-}
+} */

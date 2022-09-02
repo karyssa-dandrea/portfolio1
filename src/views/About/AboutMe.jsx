@@ -3,7 +3,8 @@ import me from '../../assets/me.jpg';
 import styles from './About.css';
 import witch from '../../assets/witch.jpeg';
 import Spotify from 'react-spotify-embed';
-import doggies from '../../assets/doggies.jpg';
+import tailwind from '../../assets/tailwind.png';
+import tailwind2 from '../../assets/tailwind2.jpeg';
 
 export default function AboutMe() {
   return (
@@ -35,8 +36,13 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={styles.grid2}>
-          <h3> My little besties: Nori & Tokio</h3>
-          <img src={doggies} className={styles.dogs} alt="image of dogs" />
+          <h3> Currently Learning:</h3>
+          <h4>Tailwind CSS</h4>
+          <img
+            src={tailwind2}
+            className={styles.dogs}
+            alt="image of tailwind"
+          />
         </div>
         <div className={styles.grid3}>
           <h3> Favorites to Code to:</h3>

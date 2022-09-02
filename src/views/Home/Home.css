@@ -1,5 +1,5 @@
 @media only screen and (min-width: 701px) {
-  img {
+  .ryssa {
     width: 40vw;
     justify-content: center;
     align-items: center;
@@ -31,6 +31,14 @@
     text-align: center;
     color: white;
     margin-bottom: 30px;
+  }
+
+  .coding {
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding-top: 0%;
   }
 }
 
