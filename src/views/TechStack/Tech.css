@@ -65,7 +65,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 60vw;
-    height: 70vh;
+    height: min-content;
     background-color: #b96619;
     color: black;
     margin: 0 7px 7px 7px;
@@ -73,6 +73,12 @@
     border-color: #78380c;
     border-style: double;
     border-width: 10px;
+  }
+
+  .techrow {
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
   }
 }
 

@@ -6,6 +6,7 @@
     border-radius: 40%;
     border-color: #c8691c;
     border-style: groove;
+    float: left;
   }
 
   .about {

@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Home.css';
 import karyssa from '../../assets/karyssa.gif';
 import codingg from '../../assets/codingg.png';
-import motivate from '../../assets/motivate.png';
 
 export default function Home() {
   return (
