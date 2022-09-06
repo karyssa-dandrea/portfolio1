@@ -14,6 +14,12 @@ export default function TechStack() {
             <p>JavaScript</p>
             <p>HTML</p>
             <p>CSS</p>
+
+            <h2>
+              <div className={styles.err}>Testing</div>
+            </h2>
+            <p>QUnit</p>
+            <p>Jest</p>
           </div>
           <div className={styles.frames}>
             <h2>
@@ -23,20 +29,25 @@ export default function TechStack() {
             <p>Node.js</p>
             <p>Redux</p>
             <p>Express</p>
-          </div>
-          <div className={styles.data}>
             <h2>
               <div className={styles.err}>Database</div>
             </h2>
             <p>PostgreSQL</p>
           </div>
-          <div className={styles.testing}>
+        </div>
+        <div className={styles.data}>
+          {/* <h2>
+              <div className={styles.err}>Database</div>
+            </h2>
+            <p>PostgreSQL</p>
+          </div> */}
+          {/* <div className={styles.testing}>
             <h2>
               <div className={styles.err}>Testing</div>
             </h2>
             <p>QUnit</p>
             <p>Jest</p>
-          </div>
+          </div> */}
         </div>
         <div className={styles.techrow}>
           <div className={styles.tools}>
