@@ -40,3 +40,41 @@
   border-bottom: 2px solid #ffbc42;
   color: black;
 }
+
+/* Small devices (phones, <= 700px) */
+@media only screen and (max-width: 700px) {
+  .tech {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    background: url('../../assets/checkers3.jpeg');
+    background-size: 50%;
+    padding: 20px 40px 10px 40px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    align-items: center;
+    border-color: #b96619;
+    border-style: groove;
+    border-width: 10px;
+    justify-content: center;
+  }
+
+  .techsection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: #b96619;
+    color: black;
+    margin: 0 7px 7px 7px;
+    border-radius: 5px;
+  }
+
+  .techleft,
+  .techcenter,
+  .techright {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+  }
+}
