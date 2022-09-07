@@ -13,13 +13,13 @@ export default function AboutMe() {
         <img src={me} className={styles.selfie} alt="selfie" />
 
         <p>
-          Hello! My name is Karyssa and I enjoy creating things that live on the
-          web. My interest in web development started back in 2014 when I
-          started a job at a watch company where I got introduced to HTML and
-          CSS. I loved being able to create something and see it come to life
-          and wanted more control over the process. I also received my
-          Certificate in Commercial Music in 2020, which has allowed me to learn
-          and navigate various software. I love to learn and create!
+          Hello! My name is Karyssa, and I enjoy creating things that live on
+          the web. My interest in web development started back in 2014 when I
+          started managing the website at a watch company. I was introduced to
+          HTML and CSS and loved it! I loved being able to create something and
+          see it come to life and wanted more control over the process. I also
+          received my Certificate in Commercial Music in 2020, which has allowed
+          me to learn and navigate various software. I love to learn and create!
         </p>
         <p>
           Fast-forward to today, and I am now a Full Stack Software Developer!

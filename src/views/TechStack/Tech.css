@@ -1,96 +1,42 @@
 /* Large devices (laptops, desktops, screens > 700px) */
-@media only screen and (min-width: 705px) {
+@media only screen and (min-width: 701px) {
   .tech {
     display: flex;
-    flex-direction: column;
-    /* width: auto; */
+    flex-direction: row;
     align-items: center;
-    /* justify-content: space-evenly; */
+    margin: 20px 0px 20px 0px;
     background: url('../../assets/checkers3.jpeg');
     background-size: 50%;
     padding: 20px 40px 10px 40px;
     margin: 20px 0px 20px 0px;
     border-radius: 5px;
-    font-size: 1.1em;
+    align-items: center;
     border-color: #b96619;
     border-style: groove;
     border-width: 10px;
-    font-family: 'Roboto Serif', serif;
-    /* height: 73vh; */
-  }
-
-  .language {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .tools {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .dev {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .testing {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .frames {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .data {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .err {
-    border-bottom: 2px solid #ffbc42;
-    display: inline-block;
+    justify-content: center;
   }
 
   .techsection {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    width: 45vw;
-    height: min-content;
+    width: 70vw;
     background-color: #b96619;
     color: black;
     margin: 0 7px 7px 7px;
     border-radius: 5px;
-    border-color: #78380c;
-    border-style: double;
-    border-width: 10px;
-  }
-
-  .techrow {
-    display: flex;
-    flex-direction: row;
   }
 }
 
-/* Small devices (phones, <= 700px)
-@media only screen and (min-width: 768px) {
-  .tech-section {
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    margin: 0 0 10px 0;
-    padding: 0 0 0 5px;
-    background-color: #b96619;
-    color: black;
-    border-radius: 5px;
-  }
-} */
+.techleft,
+.techcenter,
+.techright {
+  display: flex;
+  flex-direction: column;
+}
+
+.techheader {
+  font-size: 1.5em;
+  border-bottom: 2px solid #ffbc42;
+  color: black;
+}

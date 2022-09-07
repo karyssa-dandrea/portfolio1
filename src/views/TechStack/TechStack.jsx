@@ -5,71 +5,49 @@ export default function TechStack() {
   return (
     <div className={styles.tech}>
       <div className={styles.techsection}>
-        <div className={styles.techrow}>
-          <div className={styles.language}>
-            <h2>
-              {' '}
-              <div className={styles.err}>Languages</div>
-            </h2>
+        <div className={styles.techleft}>
+          <div className={styles.techlanguages}>
+            <h2 className={styles.techheader}>Languages</h2>
             <p>JavaScript</p>
             <p>HTML</p>
             <p>CSS</p>
-
-            <h2>
-              <div className={styles.err}>Testing</div>
-            </h2>
-            <p>QUnit</p>
-            <p>Jest</p>
           </div>
-          <div className={styles.frames}>
-            <h2>
-              <div className={styles.err}>Frameworks // Libraries</div>
-            </h2>
-            <p>React - my fave!</p>
+          <div className={styles.techenvironments}>
+            <h2 className={styles.techheader}>Frameworks &amp; Libraries</h2>
+            <p>React</p>
             <p>Node.js</p>
-            <p>Redux</p>
             <p>Express</p>
-            <h2>
-              <div className={styles.err}>Database</div>
-            </h2>
-            <p>PostgreSQL</p>
+            <p>Redux</p>
           </div>
         </div>
-        <div className={styles.data}>
-          {/* <h2>
-              <div className={styles.err}>Database</div>
-            </h2>
+        <div className={styles.techcenter}>
+          <div className={styles.techdatabases}>
+            <h2 className={styles.techheader}>Database</h2>
             <p>PostgreSQL</p>
-          </div> */}
-          {/* <div className={styles.testing}>
-            <h2>
-              <div className={styles.err}>Testing</div>
-            </h2>
-            <p>QUnit</p>
-            <p>Jest</p>
-          </div> */}
-        </div>
-        <div className={styles.techrow}>
-          <div className={styles.tools}>
-            <h2>
-              <div className={styles.err}> Tools</div>
-            </h2>
+          </div>
+          <div className={styles.techtools}>
+            <h2 className={styles.techheader}>Tools</h2>
             <p>Miroboard</p>
             <p>VSCode</p>
             <p>Netlify</p>
             <p>Heroku</p>
-            <p>Postman</p>
-            <p>Supabase</p>
             <p>Github</p>
+            <p>Supabase</p>
+            <p>Postman</p>
             <p>Beekeeper Studio</p>
           </div>
-          <div className={styles.dev}>
-            <h2>
-              <div className={styles.err}>Practice</div>
-            </h2>
-            <p>Mob/Pair programming</p>
-            <p>Rest API's</p>
+        </div>
+        <div className={styles.techright}>
+          <div className={styles.techtesting}>
+            <h2 className={styles.techheader}>Testing</h2>
+            <p>QUnit</p>
+            <p>Jest</p>
+          </div>
+          <div className={styles.techpractices}>
+            <h2 className={styles.techheader}>Practice</h2>
+            <p>Mob/Pair Programming</p>
             <p>TDD</p>
+            <p>REST API</p>
           </div>
         </div>
       </div>
