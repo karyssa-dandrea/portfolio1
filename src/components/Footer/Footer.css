@@ -1,27 +1,61 @@
-.footer {
-  height: 10vh;
-  width: 100vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: url('../../assets/mush.png');
-  background-size: 100%;
+/* Large devices (laptops, desktops, screens > 700px) */
+@media only screen and (min-width: 701px) {
+  .footer {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url('../../assets/mush.png');
+    background-size: 100%;
+  }
+
+  .linkd {
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    color: #b96619;
+  }
+
+  .git {
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    color: #b96619;
+  }
+
+  .email {
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    color: #b96619;
+  }
 }
 
-.linkd {
-  font-family: 'Monoton', cursive;
-  font-size: 2em;
-  color: #b96619;
-}
+/* Small Devices (phones) */
+@media only screen and (max-width: 700px) {
+  .footer {
+    height: 5vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url('../../assets/mush.png');
+    background-size: 100%;
+  }
 
-.git {
-  font-family: 'Monoton', cursive;
-  font-size: 2em;
-  color: #b96619;
-}
+  .linkd {
+    font-family: 'Monoton', cursive;
+    font-size: 1em;
+    color: #b96619;
+  }
 
-.email {
-  font-family: 'Monoton', cursive;
-  font-size: 2em;
-  color: #b96619;
+  .git {
+    font-family: 'Monoton', cursive;
+    font-size: 1em;
+    color: #b96619;
+  }
+
+  .email {
+    font-family: 'Monoton', cursive;
+    font-size: 1em;
+    color: #b96619;
+  }
 }
