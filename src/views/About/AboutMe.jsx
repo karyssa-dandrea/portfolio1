@@ -47,7 +47,7 @@ export default function AboutMe() {
         <div className={styles.grid3}>
           <h3> Favorites to Code to:</h3>
           <div className={styles.spotify}>
-            <Spotify link="https://open.spotify.com/playlist/6tMR6bBpetCK0mHP5WfTwF?si=f379312a27b744f2" />
+            <Spotify link="https://open.spotify.com/playlist/3m1wqti1z7gAU7GCGNHyFc?si=e71e17f2f9d64288" />
           </div>
         </div>
       </div>
