@@ -1,0 +1,238 @@
+@media only screen and (min-width: 701px) {
+  .unphoto {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .unspoken {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    padding: 50px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .foto {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    padding: 50px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .projecth {
+    color: #52301b;
+  }
+
+  .gotchi {
+    width: 100px;
+  }
+
+  .gotchib {
+    font-size: 2.5vw;
+    color: black;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  .gotchibb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    padding: 50px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .projectlist {
+    display: grid;
+    background-color: #c27731;
+    border-radius: 5px;
+    border: 2px solid #78380c;
+  }
+
+  .gotchilinks a {
+    font-size: 1.1rem;
+  }
+
+  a {
+    color: #694618;
+    text-decoration: none;
+  }
+
+  .fotolinks a {
+    font-size: 1.1rem;
+  }
+
+  .unspokenlinks a {
+    font-size: 1.1rem;
+  }
+
+  a :hover {
+    color: #ff914d;
+  }
+
+  .fotoh1 {
+    font-size: 3em;
+  }
+
+  .projectlinks {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    justify-content: space-evenly;
+    padding: 6px;
+  }
+}
+
+/* Small devices (phones, <= 700px) */
+@media only screen and (max-width: 700px) {
+  .unphoto {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .unspoken {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 315px;
+    padding: 30px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .foto {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 10px;
+    margin: 10px;
+    width: 315px;
+    padding: 30px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .projecth {
+    color: #52301b;
+  }
+
+  .gotchi {
+    width: 100px;
+  }
+
+  .gotchib {
+    font-size: 2.5em;
+    color: black;
+    font-family: 'Electrolize', sans-serif;
+  }
+
+  .gotchibb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: 315px;
+    padding: 30px 10px 10px 10px;
+    line-height: 25px;
+    background: url('../../assets/checkers.png');
+    color: rgb(101, 100, 100);
+    margin: 20px 20px 40px 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 5px #78380c;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .projectlist {
+    align-items: center;
+    background-color: #c27731;
+    border-radius: 5px;
+    border: 2px solid #78380c;
+  }
+
+  .gotchilinks a {
+    font-size: 1.1rem;
+  }
+
+  a {
+    color: #52301b;
+    text-decoration: underline;
+    justify-content: space-evenly;
+    padding: 6px;
+    font-size: 1.2rem;
+  }
+
+  .fotolinks a {
+    font-size: 1.1rem;
+  }
+
+  .unspokenlinks a {
+    font-size: 1.1rem;
+  }
+
+  a :hover {
+    color: #ff914d;
+  }
+
+  .fotoh1 {
+    font-size: 2.5em;
+  }
+}

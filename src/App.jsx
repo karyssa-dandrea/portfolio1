@@ -1,15 +1,16 @@
 import Home from './views/Home/Home';
 import Layout from './components/Layout/Layout';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutMe from './views/About/AboutMe';
 import TechStack from './views/TechStack/TechStack';
+import ProjectList from './views/ProjectList/ProjectList';
 
 export default function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Layout>
-          <Switch>
+      <Router>
+        <Switch>
+          <Layout>
             <Route exact path="/">
               <Home />
             </Route>
@@ -19,9 +20,12 @@ export default function App() {
             <Route exact path="/tech">
               <TechStack />
             </Route>
-          </Switch>
-        </Layout>
-      </BrowserRouter>
+            <Route exact path="/projects">
+              <ProjectList />
+            </Route>
+          </Layout>
+        </Switch>
+      </Router>
     </div>
   );
 }
