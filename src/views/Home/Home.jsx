@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className={styles.home}>
       <div className={styles.bio}>
+        <img src={karyssa} className={styles.ryssa} alt="karyssa logo" />
         <p>
-          <img src={karyssa} className={styles.ryssa} alt="karyssa logo" />
           Hello, welcome! <br />
           I'm Karyssa Dandrea. <br />
           <em>
