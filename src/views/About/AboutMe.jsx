@@ -23,9 +23,8 @@ export default function AboutMe() {
         </p>
         <p>
           Fast-forward to today, and I am now a Full Stack Software Developer!
-          Although I specialize in the Front End. My main focus these days is
-          building accessible, beautiful and user friendly digital experiences.
-          Let's work together!
+          My main focus these days is building accessible, beautiful and user
+          friendly digital experiences. Let's work together!
         </p>
       </div>
       <div className={styles.fun}>

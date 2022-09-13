@@ -16,8 +16,7 @@ export default function Home() {
             specializing in the front end.
           </em>{' '}
           I have a passion for creating intuitive and dynamic user experiences.
-          Interested in the entire frontend and working on ambitious projects
-          with others.
+          I am interested in working on ambitious projects with others!
         </p>
         <img src={codingg} className={styles.coding} alt="coding quote" />
       </div>
