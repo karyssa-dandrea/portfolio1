@@ -3,7 +3,7 @@ import me from '../../assets/me.jpg';
 import styles from './About.css';
 import witch from '../../assets/witch.jpeg';
 import Spotify from 'react-spotify-embed';
-import tailwind from '../../assets/tailwind.png';
+import verity from '../../assets/verity.jpeg';
 import tailwind2 from '../../assets/tailwind2.jpeg';
 
 export default function AboutMe() {
@@ -31,7 +31,7 @@ export default function AboutMe() {
         <div className={styles.read}>
           <div className={styles.grid2}>
             <h3> Currently Reading:</h3>
-            <img src={witch} className={styles.book} alt="image of book" />
+            <img src={verity} className={styles.book} alt="image of book" />
           </div>
         </div>
         <div className={styles.grid2}>

@@ -37,8 +37,10 @@ export default function ProjectList() {
           <b>
             Gotchi bb is a full-stack CRUD app with a RESTful API that allows
             users to care for a virtual pet. Made in a 10-day sprint with a team
-            of 4, I built reuseable components and created functionality to edit
-            your pet. I also tested the funtionality using Jest and Supertest.{' '}
+            of 4, I built reuseable components and created functionality to
+            edit, bathe, feed and play with your pet. I also tested the
+            funtionality using Jest and Supertest. I also took part in using an
+            NLP to create a chatbot to talk to your cute new friend.{' '}
           </b>
         </p>
       </div>
@@ -71,9 +73,10 @@ export default function ProjectList() {
             Foto is an online application that allows users to upload photos
             into private or public albums. Public album photos are randomized
             across the home page, while private albums are password protected. I
-            created the functionality to upload photos into albums. I also
-            organized the file structure to maintain navigable code. This was
-            done in a 4 day sprint with a team of 4.
+            created the functionality to upload photos into albums, as well as
+            to delete and add or edit a caption. I also organized the file
+            structure to maintain navigable code. This was done in a 4 day
+            sprint with a team of 4.
           </b>
         </p>
       </div>
@@ -106,8 +109,9 @@ export default function ProjectList() {
             Unspoken is an online platform for users to share stories for others
             to connect with a lo-fi vibe. This is a React app utilizing Supabase
             for the backend. This was made in a 4 day sprint with a team of 4. I
-            wrote the presentational components and refactored for cleaner code
-            and readability. I also took the lead in CSS and adding music to our
+            create the functionality to post and edit any blogs. I wrote the
+            presentational components and refactored for cleaner code and
+            readability. I also took the lead in CSS and adding music to our
             app.
           </b>
         </p>
