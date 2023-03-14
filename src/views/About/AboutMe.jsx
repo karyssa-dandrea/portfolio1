@@ -35,12 +35,12 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={styles.grid2}>
-          <h3> Currently Learning:</h3>
-          <h4>Tailwind CSS</h4>
+          <h3> Currently obsessed with:</h3>
+
           <img
             src={tailwind2}
             className={styles.dogs}
-            alt="image of tailwind"
+            alt="image of the last of us"
           />
         </div>
         <div className={styles.grid3}>
