@@ -37,11 +37,7 @@ export default function AboutMe() {
         <div className={styles.grid2}>
           <h3> Currently obsessed with:</h3>
 
-          <img
-            src={tailwind2}
-            className={styles.dogs}
-            alt="image of the last of us"
-          />
+          <img src={tailwind2} className={styles.dogs} alt="image of shrek" />
         </div>
         <div className={styles.grid3}>
           <h3> Favorites to Code to:</h3>
