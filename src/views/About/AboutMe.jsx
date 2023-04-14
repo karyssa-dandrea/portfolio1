@@ -1,7 +1,6 @@
 import React from 'react';
 import me from '../../assets/me.jpg';
 import styles from './About.css';
-import witch from '../../assets/witch.jpeg';
 import Spotify from 'react-spotify-embed';
 import verity from '../../assets/verity.jpeg';
 import tailwind2 from '../../assets/tailwind2.jpeg';
